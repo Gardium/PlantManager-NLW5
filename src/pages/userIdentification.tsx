@@ -1,4 +1,3 @@
-import { useNavigation } from "@react-navigation/core";
 import React, { useState } from "react";
 import {
   StyleSheet,
@@ -11,6 +10,7 @@ import {
   TouchableWithoutFeedback,
   Keyboard,
 } from "react-native";
+import { useNavigation } from "@react-navigation/core";
 
 import { Button } from "../components/Button";
 
